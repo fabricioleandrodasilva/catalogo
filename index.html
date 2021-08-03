@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="author" content="fabricio-leandro" />
+        <meta name="description" content="catalogo-gp" />
+        <link rel="shortcut icon" href="img/fiveicon.jpg" />
+        <title>Catalogo Gp</title>
+        <style>
+            html,
+            body {
+                margin: 0;
+                padding: 0;
+                background: #000;
+            }
+            #grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+                grid-auto-rows: minmax(250px, auto);
+                grid-auto-flow: dense;
+                grid-column-gap: 0.5em;
+                grid-row-gap: 0.5em;
+                margin: 20px 0 0 0;
+            }
+            #grid img {
+                width: 100%;
+                height: 99%;
+                object-fit: cover;
+            }
+            .span-2 {
+                grid-column-end: span 1;
+                grid-row-end: span 2;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="grid">
+            <img src="img/gp_familia.jpg" /> <img  src="img/itaipava.jpg"/>
+            <img class="span-2" src="img/Magneto.jpg" />
+            <img src="img/agua_petra.jpg" /> <img src="img/cabara_premium.jpg" />
+            <img src="img-1/black_alok.jpg" /> <img class="span-2" src="https://www.refrigeranteit.com.br/images/it-limao.png" />
+            <img src="img/petra_latao.jpg" /> <img class="span-2" src="img/it-guarana.png" />
+            <img src="img/cabare_prata_copo.jpg" /> <img src="img/cabare_ouro_copo.jpg" />
+            <img src="img/cabare_amburana_copo.jpg" /> <img class="span-2" src="https://www.refrigeranteit.com.br/images/it-cola.png" />
+            <img src="img/ice_cabare_familia.jpg" /> <img src="img/ice_cabare-amarela_taca.jpg" />
+            <img src="img/ice_cabare-amarela_taca_verv.jpg" /> <img class="span-2" src="https://www.refrigeranteit.com.br/images/it-laranja.png" />
+            <img src="https://www.refrigeranteit.com.br/images/it-lemon-ice.png" /> <img class="span-2" src="img/lemoice.jpeg" />
+            <img src="img/ice_cabare_amarela1.jpg" /> <img src="img/ice_cabare_vermelha1.jpg" />
+            <img class="span-2" src="img/CACILDIS.jpg" /> <img  class ="span-2"src="img/LOKAL.jpg" />
+            <img class="span-2" src="img/draft.jpg" /> <img src="img/lokal-latao.webp" />
+            <img src="img/NORDKA.jpg" /> 
+            <img src="img/welt_familia.jpg" />
+            <img src="img/black_familia.jpg" />
+            <img class="span-2" src="img/PREMIUM.jpg" />
+            <img src="img/NORDKA.jpg" /> <img class="span-2" src="img/PREMIUM.jpg" />
+            <img src="img/Cerv_crystal.jpg" /><img src="img/mesa_balde.jpg" /><img src="img/TNT-FAMILIA.jpg" />
+        </div>
+    </body>
+</html>
